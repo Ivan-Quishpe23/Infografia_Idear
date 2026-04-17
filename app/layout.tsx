@@ -8,7 +8,16 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Fase Idear - Design Thinking',
-  description: 'Infografía interactiva sobre la fase de Ideación en Design Thinking',
+  description: `Infografía sobre la fase de Ideación en Design Thinking
+
+ CREADO POR EL GRUPO 8
+
+Integrantes:
+Angye Lechón
+Iván Quishpe
+Maria Portilla
+Danny Armas
+Ewan Torres`,
   generator: 'v0.app',
   icons: {
     icon: [
