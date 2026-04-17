@@ -83,24 +83,33 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-16 py-8 border-t border-border">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-muted-foreground text-sm">
-            Infografía sobre la fase de Ideación en Design Thinking
-
-            CREADO POR EL GRUPO 8
-
-            Integrantes:
-            Angye Lechón
-            Iván Quishpe
-            Maria Portilla
-            Danny Armas
-            Ewan Torres`
-          </p>
-          <p className="text-muted-foreground text-xs mt-2">
-            Haz clic en los elementos para explorar más detalles
-          </p>
+        <div className="text-center">
+          <h2>Creado por el Grupo 8</h2>
+          <ul className="list-none">
+            <li>Angye Lechón</li>
+            <li>Iván Quishpe</li>
+            <li>María Portilla</li>
+            <li>Danny Armas</li>
+            <li>Ewan Torres</li>
+          </ul>
         </div>
-      </footer>
-    </main>
+        <p className="text-muted-foreground text-sm">
+          Infografía sobre la fase de Ideación en Design Thinking
+
+          CREADO POR EL GRUPO 8
+
+          Integrantes:
+          Angye Lechón
+          Iván Quishpe
+          Maria Portilla
+          Danny Armas
+          Ewan Torres`
+        </p>
+        <p className="text-muted-foreground text-xs mt-2">
+          Haz clic en los elementos para explorar más detalles
+        </p>
+      </div>
+    </footer>
+    </main >
   )
 }
