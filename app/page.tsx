@@ -86,7 +86,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-center md:text-left text-balance">
-              <h2 className="text-xl font-bold text-foreground mb-2">Grupo 8 - Innovadores</h2>
+              <h2 className="text-xl font-bold text-foreground mb-2">Grupo 8</h2>
               <p className="text-muted-foreground text-sm max-w-md">
                 Infografía sobre la fase de <strong>Ideación</strong> en Design Thinking.
                 Un recurso educativo para explorar técnicas y métodos de innovación creativa.
@@ -111,7 +111,7 @@ export default function Home() {
               Haz clic en los elementos para explorar más detalles
             </p>
             <p className="text-muted-foreground/60 text-[10px] mt-4 uppercase tracking-[0.2em]">
-              © 2024 Proyectos de Innovación - Grupo 8
+              © sostenibilidad, creatividad e innovación "D-T" - Grupo 8
             </p>
           </div>
         </div>
