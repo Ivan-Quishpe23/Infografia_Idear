@@ -111,7 +111,7 @@ export default function Home() {
               Haz clic en los elementos para explorar más detalles
             </p>
             <p className="text-muted-foreground/60 text-[10px] mt-4 uppercase tracking-[0.2em]">
-              © sostenibilidad, creatividad e innovación "D-T" - Grupo 8
+              © sostenibilidad, creatividad e innovación "D-T" - 2026A
             </p>
           </div>
         </div>
