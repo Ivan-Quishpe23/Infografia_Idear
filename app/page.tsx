@@ -85,7 +85,7 @@ export default function Home() {
       <footer className="mt-16 py-8 border-t border-border">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground text-sm">
-            Infografía interactiva sobre la Fase Idear en Design Thinking
+            Infografía interactiva sobre la Fase Idear en Design Thinking GRUPO 8
           </p>
           <p className="text-muted-foreground text-xs mt-2">
             Haz clic en los elementos para explorar más detalles

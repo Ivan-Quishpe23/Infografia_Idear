@@ -82,7 +82,7 @@ export function HMWSection() {
             <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
               <span>📌</span> Ejemplos Prácticos
             </h3>
-            
+
             <div className="flex gap-2 mb-4">
               {examples.map((_, index) => (
                 <button
