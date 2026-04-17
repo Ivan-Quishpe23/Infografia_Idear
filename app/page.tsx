@@ -82,34 +82,40 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="mt-16 py-8 border-t border-border">
-        <div className="text-center">
-          <h2>Creado por el Grupo 8</h2>
-          <ul className="list-none">
-            <li>Angye Lechón</li>
-            <li>Iván Quishpe</li>
-            <li>María Portilla</li>
-            <li>Danny Armas</li>
-            <li>Ewan Torres</li>
-          </ul>
+      <footer className="mt-16 py-12 border-t border-border bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+            <div className="text-center md:text-left text-balance">
+              <h2 className="text-xl font-bold text-foreground mb-2">Grupo 8 - Innovadores</h2>
+              <p className="text-muted-foreground text-sm max-w-md">
+                Infografía sobre la fase de <strong>Ideación</strong> en Design Thinking.
+                Un recurso educativo para explorar técnicas y métodos de innovación creativa.
+              </p>
+            </div>
+
+            <div className="text-center md:text-right">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-primary mb-4">Integrantes</h3>
+              <div className="grid grid-cols-2 md:flex md:flex-wrap justify-center md:justify-end gap-x-6 gap-y-2 text-sm">
+                <span className="text-foreground hover:text-primary transition-colors cursor-default">Angye Lechón</span>
+                <span className="text-foreground hover:text-primary transition-colors cursor-default">Iván Quishpe</span>
+                <span className="text-foreground hover:text-primary transition-colors cursor-default">María Portilla</span>
+                <span className="text-foreground hover:text-primary transition-colors cursor-default">Danny Armas</span>
+                <span className="text-foreground hover:text-primary transition-colors cursor-default">Ewan Torres</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-border/50 text-center">
+            <p className="text-muted-foreground text-xs flex items-center justify-center gap-2">
+              <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+              Haz clic en los elementos para explorar más detalles
+            </p>
+            <p className="text-muted-foreground/60 text-[10px] mt-4 uppercase tracking-[0.2em]">
+              © 2024 Proyectos de Innovación - Grupo 8
+            </p>
+          </div>
         </div>
-        <p className="text-muted-foreground text-sm">
-          Infografía sobre la fase de Ideación en Design Thinking
-
-          CREADO POR EL GRUPO 8
-
-          Integrantes:
-          Angye Lechón
-          Iván Quishpe
-          Maria Portilla
-          Danny Armas
-          Ewan Torres`
-        </p>
-        <p className="text-muted-foreground text-xs mt-2">
-          Haz clic en los elementos para explorar más detalles
-        </p>
-      </div>
-    </footer>
-    </main >
+      </footer>
+    </main>
   )
 }
